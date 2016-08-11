@@ -34,7 +34,9 @@
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
-
+.site-title:hover{
+    color: white;
+}
 
 /*
    Menus
