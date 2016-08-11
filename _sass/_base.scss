@@ -113,6 +113,9 @@ li code {
    ========================================================================== */
 
 /* Figures and images */
+img {
+height: initial;
+}
 
 figure {
   margin-left: -1 * $gutter;
