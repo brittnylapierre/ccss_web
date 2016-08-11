@@ -309,9 +309,6 @@
    ========================================================================== */
 
 .page-footer {
-    background-color: black;
-    width: 100%;
-    bottom: 0;
 	position: relative;
 }
 
@@ -358,4 +355,7 @@
 			text-decoration: none;
 		}
 	}
+    background-color: black;
+    width: 100%;
+    bottom: 0;
 }
