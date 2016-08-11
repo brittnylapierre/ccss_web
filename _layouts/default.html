@@ -31,11 +31,12 @@
 
   <body id="js-body">
     {% include browser-upgrade.html %}
-    {% if page.pimage %}<img class="page-image" src="{{ page.pimage }}" alt="tech talk"  height="1080">{% endif %}
+    
     {% include header.html %}
     {% include navigation-sliding.html %}
 
     <div id="page-wrapper">
+      {% if page.pimage %}<img class="page-image" src="{{ page.pimage }}" alt="tech talk"  height="1080">{% endif %}
       {{ content }}
       {% include footer.html %}
     </div>
