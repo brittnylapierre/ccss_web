@@ -1,7 +1,7 @@
 // Off Canvas Sliding
 $(document).ready(function(){
   $( 'html' ).height($(document).height());
-  console.log( $( 'html' ).height());
+  console.log('Height: ' + $( 'html' ).height());
   // Menu button click
   $('#js-menu-trigger,#js-menu-screen').on('click touchstart', function(e){
     // $('#js-body').toggleClass('no-scroll');
