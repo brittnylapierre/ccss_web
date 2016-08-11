@@ -283,12 +283,16 @@
 		width: 100%;
 	}
 }
+
+.page-image-wrapper{
+    width: 100vw;
+    height: 60vh;
+}
+
 // make image flush with edges on small screens
 .page-image {
 	/*margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;*/
-    width: 100vw;
-    height: 60vh;
 	// feature image caption
 	.image-credit {
 		position: absolute;
