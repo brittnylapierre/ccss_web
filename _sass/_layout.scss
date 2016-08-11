@@ -295,16 +295,16 @@
   .page-image-wrapper { height: 328px; }
 }
 
-@media only screen and (min-width : 768px){
-  .page-image-wrapper { height: 512px; }
+@media only screen and (min-width : 768px) and (orientation:landscape){
+  .page-image-wrapper { height: 548px; }
 }
 
 @media only screen and (min-width : 1366px) {
-  .page-image-wrapper { height: 910px; }
+  .page-image-wrapper { height: 512px; }
 }
 
 @media only screen and (min-width : 1920px) {
-  .page-image-wrapper { height: 1280px; }
+  .page-image-wrapper { height: 720px; }
 }
 
 // make image flush with edges on small screens
