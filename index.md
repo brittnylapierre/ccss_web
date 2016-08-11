@@ -10,3 +10,6 @@ pimage: ./images/techtalk.png
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+<div>
+LALALALALALALALAL
+</div>
