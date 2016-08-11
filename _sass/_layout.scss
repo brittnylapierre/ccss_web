@@ -277,7 +277,6 @@
 }
 // make image flush with edges on small screens
 .page-image {
-	position: absolute;
 	/*margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;*/
     width: 100%;
@@ -303,7 +302,6 @@
     margin: 0;
     padding: 0;
     z-index: -1;
-    display:block;
 }
 
 /*
@@ -357,7 +355,6 @@
 			text-decoration: none;
 		}
 	}
-    display:block;
     background-color: black;
     width: 100vw;
     max-width: 100vw;
