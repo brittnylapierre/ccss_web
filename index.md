@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-title: Latest Posts
+title: Home
 published: true
 pimage: ./images/techtalk.png
 ---
@@ -10,3 +10,6 @@ pimage: ./images/techtalk.png
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
+<div>
+LALALALALALALALALALA
+</div>
