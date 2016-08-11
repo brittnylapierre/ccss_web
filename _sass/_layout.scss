@@ -291,6 +291,7 @@
 
 // make image flush with edges on small screens
 .page-image {
+	object-fit: cover;
 	/*margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;*/
 	// feature image caption
