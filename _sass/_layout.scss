@@ -146,7 +146,9 @@
 /*
    Main content
    ========================================================================== */
-
+#js-body{
+	margin-bottom: 0;
+}
 #main {
 	.inner-wrap {
 		@include media($medium) {
