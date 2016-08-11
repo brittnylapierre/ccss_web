@@ -282,17 +282,10 @@
 }
 // make image flush with edges on small screens
 .page-image {
-<<<<<<< HEAD
 	/*margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;*/
     width: 100%;
     height: 40%;
-=======
-	position: relative;
-    height: 40%;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
->>>>>>> parent of 5ddeef3... Updated _layout.scss
 	// feature image caption
 	.image-credit {
 		position: absolute;
