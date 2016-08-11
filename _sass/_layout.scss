@@ -278,8 +278,9 @@
 // make image flush with edges on small screens
 .page-image {
 	position: relative;
-	margin-left: -1 * $gutter;
-	margin-right: -1 * $gutter;
+	/*margin-left: -1 * $gutter;
+	margin-right: -1 * $gutter;*/
+    width: 100%;
 	// feature image caption
 	.image-credit {
 		position: absolute;
