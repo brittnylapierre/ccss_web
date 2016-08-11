@@ -287,7 +287,8 @@
 .page-image {
 	/*margin-left: -1 * $gutter;
 	margin-right: -1 * $gutter;*/
-    width: 100%;
+    width: 100vw;
+    height: 40vw;
 	// feature image caption
 	.image-credit {
 		position: absolute;
@@ -366,10 +367,7 @@
     background-color: black;
     width: 100vw;
     max-width: 100vw;
-    height: 200px; 
-    @include media($medium) {
-		height: 1000px;
-	}
+    height: 200px;
     margin: 0;
     right: 0;
     left: 0;
