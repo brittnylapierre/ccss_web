@@ -4,7 +4,7 @@ permalink: /
 title: Latest Posts
 published: true
 ---
-<img src="./images/techtalk.png" alt="tech talk" height="42" width="42">
+<img src="./images/techtalk.png" alt="tech talk">
 <div class="tiles">
 {% for post in site.posts %}
 	{% include post-grid.html %}
