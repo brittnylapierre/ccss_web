@@ -11,5 +11,5 @@ pimage: ./images/techtalk.png
 {% endfor %}
 </div><!-- /.tiles -->
 <div>
-LALALALALALALALAL
+LALALALALALALALALA
 </div>
