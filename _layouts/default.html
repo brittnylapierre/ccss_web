@@ -33,7 +33,12 @@
     {% include browser-upgrade.html %}
     {% include header.html %}
     {% include navigation-sliding.html %}
-    {% if page.pimage %}<img class="page-image" src="{{ page.pimage }}" alt="tech talk">{% endif %}
+    
+    {% if page.pimage %}
+    <div class="page-image-wrapper">
+    	<img class="page-image" src="{{ page.pimage }}" alt="tech talk">
+    </div>
+    {% endif %}
 
     <div id="page-wrapper">
       {{ content }}
