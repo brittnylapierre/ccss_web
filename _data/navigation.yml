@@ -4,11 +4,6 @@
   excerpt:
   image:
   
-- title: About
-  url: /about
-  excerpt:
-  image:
-  
 - title: Community
   url: /community
   excerpt:
@@ -19,7 +14,17 @@
   excerpt:
   image:
   
+- title: About
+  url: /about
+  excerpt:
+  image:
+  
 - title: Resources
   url: /resources
+  excerpt:
+  image:
+  
+- title: Contact
+  url: /contact
   excerpt:
   image:
