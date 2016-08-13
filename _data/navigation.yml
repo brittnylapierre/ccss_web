@@ -1,8 +1,4 @@
 # Site navigation links
-- title: Home
-  url: 
-  excerpt:
-  image:
   
 - title: Community
   url: /community
@@ -11,6 +7,11 @@
 
 - title: Opportunities
   url: /opportunities
+  excerpt:
+  image:
+
+- title: Home
+  url: 
   excerpt:
   image:
   
