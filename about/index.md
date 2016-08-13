@@ -54,7 +54,7 @@ Lounge & Services
 		<li>Hole Puncher</li>
 		<li>CDs</li>
 		<li>Etc</li>
-	</ul>
+        </ul></li>
 	<li>WiFi:<br>
     We provide free, WiFi and direct ethernet. Basically, we have fast internet in our lounge! Grab the password from the office.</li>
 	<li>Library: (NEW!)<br>
