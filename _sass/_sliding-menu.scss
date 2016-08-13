@@ -31,7 +31,9 @@
   //height: $button-size * 2;
   background: $primary-color;
   outline: 0;
-  padding: $button-size/2;
+  padding: $button-size*0.40;
+  padding-top: $button-size*0.45;
+  padding-bottom: $button-size*0.55;
   border: 2.5px solid transparent;
   cursor: pointer;
   z-index: 20;
