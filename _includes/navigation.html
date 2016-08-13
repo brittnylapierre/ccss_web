@@ -8,15 +8,15 @@
     	{% endif %}
     	<li>
           <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
-          	<ul class='sub-menu'>
-            {% for sublink in link.sublinks %}
-            	<li>
-         			<a href="{{ domain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
-                      {{ sublink.title }}
-                  	</a>
-                </li>
-            {% endfor %}
-            </ul>
+          <ul class='sub-menu'>
+          {% for sublink in link.sublinks %}
+          	<li>
+            	<a href="{{ domain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
+                	{{ sublink.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
   		</li>
   	{% endfor %}
 </ul>
