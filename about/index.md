@@ -4,8 +4,7 @@ permalink: about/
 title: About
 published: true
 ---
-<html>
-<body>
+
 About
 <ul>Summary of the CCSS
 	<li>Carleton Computer Science Society is an academic society that aims to create opportunities and resources for computer science students and anyone who is interested in similar fields.</li>
@@ -78,7 +77,3 @@ Lounge & Services
 	<li>Have a game you’d like others to try or office supplies you don’t need anymore? Let us know! All of our games have been donated to us from cool students like you. Email us at donation@ccss.carleton.ca</li>
     <li>Want to donate directly to us? Donate here LINK TO DONATION FORM or stop by the lounge.</li>
 </ul>
-</body>
-</html>
-
-
