@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: about/
-title: About
+permalink: contact/
+title: Contact
 published: true
 ---
 
