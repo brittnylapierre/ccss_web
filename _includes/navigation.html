@@ -13,7 +13,7 @@
             {% for sublink in link.sublinks %}
             	<li>
          			<a href="{{ domain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
-                      
+                      {{ sublink.title }}
                   	</a>
                 </li>
             {% endfor %}
