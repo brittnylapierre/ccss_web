@@ -6,9 +6,9 @@
   image:
   sublinks:
   	- title: Events
-      url:
+      url: /events
     - title: News
-      url:
+      url: /news
 
 - title: Opportunities
   url: /opportunities
@@ -16,9 +16,9 @@
   image:
   sublinks:
   	- title: Events
-      url:
+      url: /events
     - title: News
-      url:
+      url: /news
   
 - title: Resources
   url: /resources
@@ -26,9 +26,9 @@
   image:
   sublinks:
   	- title: Events
-      url:
+      url: /events
     - title: News
-      url:
+      url: /news
   
 - title: About
   url: /about
@@ -36,9 +36,9 @@
   image:
   sublinks:
   	- title: Events
-      url:
+      url: /events
     - title: News
-      url:
+      url: /news
   
 #- title: Home
 #  url: 
@@ -51,6 +51,6 @@
   image:
   sublinks:
   	- title: Events
-      url:
+      url: /events
     - title: News
-      url:
+      url: /news
