@@ -1,3 +1,9 @@
+---
+layout: default
+permalink: about/
+title: About
+published: true
+---
 Resources
 <ul>
 <li>Student Handbook: Read the Docs<li>
