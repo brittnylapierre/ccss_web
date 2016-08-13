@@ -10,18 +10,19 @@
   excerpt:
   image:
 
-- title: Home
-  url: 
+  
+- title: Resources
+  url: /resources
   excerpt:
   image:
   
 - title: About
   url: /about
   excerpt:
-  image:
+  image: 
   
-- title: Resources
-  url: /resources
+- title: Home
+  url: 
   excerpt:
   image:
   
