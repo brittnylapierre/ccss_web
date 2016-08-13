@@ -73,7 +73,8 @@ Government<br>
 	<li>OTHER LINKS</li>
 </ul>
 <br>
-<ul>Donations<br>
+Donations
+<ul>
 	<li>We take pride in being one of the few societies and groups on campus that does not enforce a levy for members. University is already expensive enough as it is so we aim to provide resources that we think should be readily available to students. This being said, we do accept donations of any kind!</li>
 	<li>Have a game you’d like others to try or office supplies you don’t need anymore? Let us know! All of our games have been donated to us from cool students like you. Email us at donation@ccss.carleton.ca</li>
     <li>Want to donate directly to us? Donate here LINK TO DONATION FORM or stop by the lounge.</li>
