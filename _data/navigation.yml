@@ -1,6 +1,11 @@
 # Site navigation links
 
-- title:
-  url:
+- title: About
+  url: {{ site.url/about }}
+  excerpt:
+  image:
+  
+- title: Home
+  url: {{ site.url }}
   excerpt:
   image:
