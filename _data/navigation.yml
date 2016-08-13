@@ -1,11 +1,10 @@
 # Site navigation links
-
-- title: About
-  url: /about
+- title: Home
+  url: 
   excerpt:
   image:
   
-- title: Home
-  url: 
+- title: About
+  url: /about
   excerpt:
   image:
