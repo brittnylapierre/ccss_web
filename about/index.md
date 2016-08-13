@@ -64,7 +64,8 @@ Lounge & Services
     Board games? Video games? Card games? We have it all. Check out our selection here.</li>
 </ul>
 <br>
-<ul>Government
+Government<br>
+<ul>
 	<li>As an academic society we are required to have a government structure. Links to all of this official documents ‘n stuff.</li>
 	<li>CONSTITUTION</li>
 	<li>RULES OF OPERATION</li>
