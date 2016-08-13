@@ -5,7 +5,7 @@
   excerpt:
   image:
   sublinks:
-  	- title: Events
+    - title: Events
       url: /events
     - title: News
       url: /news
