@@ -27,11 +27,11 @@
   top: $gutter;
   right: $gutter;
   display: block;
-  width: $button-size * 2;
-  height: $button-size * 2;
+  //width: $button-size * 2;
+  //height: $button-size * 2;
   background: $primary-color;
   outline: 0;
-  padding: 0;
+  padding: $button-size;
   border: 2.5px solid transparent;
   cursor: pointer;
   z-index: 20;
