@@ -20,7 +20,7 @@ Contact
 			<li>GitHub</li>
 			<li>Instagram??</li>
 		</ul>
-	<li>
+	</li>
 </ul>
 
 
