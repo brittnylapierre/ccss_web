@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: about/
-title: About
+permalink: resources/
+title: Resources
 published: true
 ---
 Resources
