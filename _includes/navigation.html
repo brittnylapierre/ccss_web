@@ -8,7 +8,7 @@
     	{% endif %}
     	<li>
           <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
-            <ul class='sub-menu'>
+          	<ul class='sub-menu'>
             {% for sublink in link.sublinks %}
             	<li>
          			<a href="{{ domain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
@@ -17,7 +17,6 @@
                 </li>
             {% endfor %}
             </ul>
-          </a>
   		</li>
   	{% endfor %}
 </ul>
