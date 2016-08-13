@@ -4,21 +4,41 @@
   url: /community
   excerpt:
   image:
+  sublinks:
+  	- title: Events
+      url:
+    - title: News
+      url:
 
 - title: Opportunities
   url: /opportunities
   excerpt:
   image:
+  sublinks:
+  	- title: Events
+      url:
+    - title: News
+      url:
   
 - title: Resources
   url: /resources
   excerpt:
   image:
+  sublinks:
+  	- title: Events
+      url:
+    - title: News
+      url:
   
 - title: About
   url: /about
   excerpt:
-  image: 
+  image:
+  sublinks:
+  	- title: Events
+      url:
+    - title: News
+      url:
   
 #- title: Home
 #  url: 
@@ -29,3 +49,8 @@
   url: /contact
   excerpt:
   image:
+  sublinks:
+  	- title: Events
+      url:
+    - title: News
+      url:
