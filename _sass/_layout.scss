@@ -19,6 +19,7 @@
 		@include outer-container;
 	}
 }
+
 .site-title {
 	@include row;
 	@include media($large) {
