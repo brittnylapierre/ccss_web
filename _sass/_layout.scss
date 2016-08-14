@@ -46,7 +46,7 @@
 
 .menu {
 	li {
-		//float: left;
+		float: left;
         display: inline-block;
 		&:last-child a {
 			@include media($medium) {
