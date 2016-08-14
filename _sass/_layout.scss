@@ -442,6 +442,7 @@
 }
 
 .front-page-logo{
+	display: none;
 	position: relative;
     float: left;
     z-index: 300000;
@@ -450,4 +451,11 @@
     margin-top: 200px;
     height: 115px;
     width: 920px;
+}
+
+@media only screen and (min-width : 1366px) {
+  .front-page-logo { display: inherit; }
+}
+
+.front-page-logo{
 }
