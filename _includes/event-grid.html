@@ -11,7 +11,7 @@
   	<!--time datetime="{{ event.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
   	  {{ event.date | date: "%B %d, %Y" }}
     </time-->
-    event.when
+    {{ event.when }}
   </p>
   {% endif %}
   <h2 class="event-title" itemprop="name">
@@ -20,8 +20,8 @@
     </a>
   </h2>
   <p class="event-excerpt" itemprop="description">
-    Where: event.where<br>
-    Description: event.descripton<br>
+    Where: {{ event.where }}<br>
+    Description: {{ event.descripton }}<br>
     {{ event.excerpt | strip_html | truncate: 160 }}
   </p>
 </article><!-- /.tile -->
