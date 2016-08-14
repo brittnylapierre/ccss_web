@@ -6,7 +6,22 @@
         {% if link.image %}<img src="{{ site.url }}/images/{{ link.image }}" alt="teaser" class="teaser">{% endif %}
         <div class="title">{{ link.title }}</div>
         {% if link.excerpt %}<p class="excerpt">{{ link.excerpt }}</p>{% endif %}
+        
       </a>
+      <ul class='sub-menu'>
+          {% for sublink in link.sublinks %}
+          	<li>
+              {% if sublink.url contains 'http' %}
+        	    {% assign subdomain = '' %}
+       		    {% else %}
+        	    {% assign subdomain = site.url %}
+    	      {% endif %}
+            	<a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
+                	{{ sublink.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
     </li>{% endfor %}
   </ul>
 </nav>
