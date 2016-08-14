@@ -7,7 +7,18 @@ $( '.menu li' ).mouseover(function(event){
   console.log('mouse over');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
-    submenus[i].style.display = 'inherit';
-    submenus[i].style.visibility = 'hidden';
+    if(submenus[i].parentNode != event.target){
+      submenus[i].style.display = 'inherit';
+      submenus[i].style.visibility = 'hidden';
+    }
   }
 });
+
+$( '.menu li' ).mouseleave(function(event){
+  var submenus = $( '.menu li .sub-menu' );
+  for(var i = 0; i < submenus.length; i++){
+    submenus[i].style.display = 'none';
+    submenus[i].style.visibility = 'visible';
+  }
+});
+
