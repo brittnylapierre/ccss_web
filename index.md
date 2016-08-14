@@ -5,14 +5,14 @@ title: Home
 published: true
 pimage: ./images/techtalk.png
 ---
-Events
+<h5>Events</h5>
 <div class="tiles">
 {% for post in site.categories.blog %}
 	{% include post-grid.html %}
 {% endfor %}
 </div>
 
-Recent Articles
+<h5>Recent Articles</h5>
 <div class="tiles">
 {% for post in site.categories.blog %}
 	{% include post-grid.html %}
