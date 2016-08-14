@@ -10,7 +10,7 @@
 			<li>
               <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
               	{{ link.title }}
-                {% if link.img %}
+                {% if link.img != '' %}
                 	<img src="{{ site.url }}/images/{{ link.image }}" alt="" width="48" height="48" border="0">
                 {% endif %}
               </a>
