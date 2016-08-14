@@ -432,7 +432,7 @@
     position: relative;
 }
 
-.sliding-menu-content .menu-item li a .title:hover .sub-menu {
+#js-menu > ul > li > a > div:hover .sub-menu {
 	display: inline-block;
     position: relative;
 }
