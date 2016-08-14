@@ -8,6 +8,6 @@ $( '.menu li' ).mouseover(function(event){
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
     submenus[i].style.display = 'inherit';
-    submenus[i].style.'visibility' = 'hidden';
+    submenus[i].style.visibility = 'hidden';
   }
 });
