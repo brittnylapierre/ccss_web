@@ -147,12 +147,6 @@
 	}*/
 }
 
-.sub-menu {
-	li{
-    	display: block;
-    }
-}
-
 /*
    Main content
    ========================================================================== */
@@ -411,4 +405,10 @@
     left: 0;
     bottom: 0;
     text-align: center;
+}
+
+.sub-menu {
+	li{
+    	display: block;
+    }
 }
