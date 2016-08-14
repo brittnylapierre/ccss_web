@@ -42,11 +42,7 @@
 /*
    Menus
    ========================================================================== */
-.sub-menu {
-	li{
-    	display: block;
-    }
-}
+
 
 .menu {
 	li {
@@ -149,6 +145,12 @@
 	&.slide {
 		@include transform(translate(-60rem,0));
 	}*/
+}
+
+.sub-menu {
+	li{
+    	display: block;
+    }
 }
 
 /*
