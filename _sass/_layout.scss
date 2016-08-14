@@ -59,6 +59,7 @@
 			display: block;
 			margin-right: $gutter;
 			padding-top: (.25 * $masthead-height); // 0 (.25 * $masthead-height) ;
+            margin-bottom: (.25 * $masthead-height);
 			//height: $masthead-height;
 			font-family: $alt-font;
 			&:before,
