@@ -442,7 +442,6 @@
 }
 
 .front-page-logo {
-	display: block;
 	color: white;
     font-size: 2rem;
 	text-align: center;
@@ -459,6 +458,7 @@
 }
 
 .front-page-logo img {
+	display: block;
 	position: relative;
 	margin: auto;
 	margin-bottom: 15px;
