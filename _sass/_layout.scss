@@ -42,11 +42,16 @@
 /*
    Menus
    ========================================================================== */
+.sub-menu {
+	li{
+    	display: block;
+    }
+}
 
 .menu {
 	li {
 		//float: left;
-        display: block;
+        display: inline-block;
 		&:last-child a {
 			@include media($medium) {
 				margin-right: 0; // remove spacing from last menu link
