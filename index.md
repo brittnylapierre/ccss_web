@@ -8,7 +8,7 @@ pimage: ./images/techtalk.png
 <h5>Events</h5>
 <div class="tiles">
 {% for event in site.categories.events %}
-	{% include post-grid.html %}
+	{% include event-grid.html %}
 {% endfor %}
 </div>
 
