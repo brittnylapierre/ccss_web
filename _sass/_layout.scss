@@ -441,9 +441,8 @@
 }
 
 .front-page-logo{
-	position: absolute;
-    top: 500px;
-    left: 250px;
+    margin-top: -500px;
+    margin-left: -250px;
     height: 115px;
     width: 920px;
 }
