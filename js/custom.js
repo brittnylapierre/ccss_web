@@ -7,9 +7,12 @@ $( '.menu li' ).mouseenter(function(event){
   console.log('mouse enter!');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
+    submenus[i].style.display = 'inherit';
     if(submenus[i].parentNode != event.target){
-      submenus[i].style.display = 'inherit';
       submenus[i].style.visibility = 'hidden';
+    }
+    else{
+      submenus[i].style.visibility = 'visible';
     }
   }
 });
