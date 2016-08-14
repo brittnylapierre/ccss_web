@@ -17,10 +17,10 @@
   sublinks:
     - title: Volunteer for the CCSS
       url: /volunteer
-    - title: Job Postings
-      url: /jobs
     - title: External Volunteering
       url: /external
+    - title: Job Postings
+      url: /jobs
   
 - title: Resources
   url: /resources
