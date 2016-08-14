@@ -109,7 +109,7 @@
 	li {
 		a {
 			font-weight: 200;
-			@include font-size(17,no);
+			@include font-size(18,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: white;
 			text-transform: uppercase;
