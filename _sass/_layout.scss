@@ -415,5 +415,6 @@
 }
 
 .menu li:hover .sub-menu {
-	display: absolute;
+	display: inherit;
+    position: relative;
 }
