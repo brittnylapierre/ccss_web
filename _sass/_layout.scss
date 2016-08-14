@@ -46,7 +46,7 @@
 .menu {
 	li {
 		//float: left;
-        display: inline-block;
+        display: block;
 		&:last-child a {
 			@include media($medium) {
 				margin-right: 0; // remove spacing from last menu link
