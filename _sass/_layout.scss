@@ -410,6 +410,10 @@
 .sub-menu {
 	display: none;
 	li {
+		a {
+			//font-weight: 200;
+			@include font-size(15,no);
+        }
     	font-family: Calibri,sans-serif;
     	font-weight: lighter;
     	float: none;
