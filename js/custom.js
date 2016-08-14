@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 $( '.menu li' ).mouseover(function(event){
-  console.log('mouse over');
+  console.log('mouse over!');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
     if(submenus[i].parentNode != event.target){
@@ -15,6 +15,7 @@ $( '.menu li' ).mouseover(function(event){
 });
 
 $( '.menu li' ).mouseleave(function(event){
+  console.log('mouse out!');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
     submenus[i].style.display = 'none';
