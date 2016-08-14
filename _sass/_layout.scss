@@ -447,13 +447,13 @@
     float: left;
     z-index: 300000;
     z-index: 900;
-    margin-left: 250px;
+    margin-left: 15vh;
     margin-top: 200px;
     height: 115px;
     width: 920px;
 }
 
-@media only screen and (min-width : 1366px) {
+@media only screen and (min-width : 1050px) {
   .front-page-logo { display: inherit; }
 }
 
