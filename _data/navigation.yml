@@ -53,7 +53,8 @@
   excerpt:
   image:
   sublinks:
-    - title: Events
-      url: /events
-    - title: News
-      url: /news
+    - title: Social Media
+      url: /social
+    - title: Sponsor
+      url: /sponsor
+      
