@@ -35,10 +35,11 @@
     {% include navigation-sliding.html %}
     
     {% if page.pimage %}
-    <div class='front-page-logo'>
-    <img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="920" height="115" border="0" >
-    </div>
+    
     <div class="page-image-wrapper">
+        <div class='front-page-logo'>
+    		<img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="920" height="115" border="0" >
+   		</div>
     	<video playsinline autoplay muted loop id="video"> <!--poster="{{ site.url }}/images/techtalk.png"-->
       		<source src="{{ site.url }}/video/typing.mov" type="video/mov">
      		 <source src="{{ site.url }}/video/typing.mp4" type="video/mp4">
