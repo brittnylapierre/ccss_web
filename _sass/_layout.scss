@@ -142,10 +142,11 @@
    ========================================================================== */
 
 #page-wrapper {
-	float:left;
-	padding: 1rem;
+	width: 100vw;
+    float: left;
+    padding: 1rem;
     margin: 0;
-    
+    background-color: white;
 	/*@include size(100% 100%);
 	-webkit-overflow-scrolling: touch;
 	z-index: 2;
