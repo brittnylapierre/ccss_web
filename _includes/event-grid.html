@@ -6,12 +6,12 @@
     <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
   {% endif %}
   </a>
-  {% if event.page.when %}
+  {% if event.when %}
   <p class="entry-date date published">
   	<!--time datetime="{{ event.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
   	  {{ event.date | date: "%B %d, %Y" }}
     </time-->
-    event.page.when
+    event.when
   </p>
   {% endif %}
   <h2 class="event-title" itemprop="name">
@@ -20,7 +20,7 @@
     </a>
   </h2>
   <p class="event-excerpt" itemprop="description">
-    Where: event.page.where
+    Where: event.where
     {{ event.excerpt | strip_html | truncate: 160 }}
   </p>
 </article><!-- /.tile -->
