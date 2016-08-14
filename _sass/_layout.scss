@@ -115,14 +115,9 @@
 			text-transform: uppercase;
             margin-bottom: (.25 * $masthead-height);
 		}
-        a:after {
-        	content: '';
-        	width: 100%;
-        	position: absolute;
-        	left: 0;
-        	bottom: 1px;
-        	border-bottom: 1px solid white;
-        }
+        a:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
