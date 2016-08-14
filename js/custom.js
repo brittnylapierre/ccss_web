@@ -4,7 +4,7 @@ $(document).ready(function(){
 });
 
 $( '.menu li' ).mouseenter(function(event){
-  console.log('mouse over!');
+  console.log('mouse enter!');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
     if(submenus[i].parentNode != event.target){
