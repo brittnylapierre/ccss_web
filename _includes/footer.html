@@ -10,24 +10,8 @@
 			<li>
               <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
               	{{ link.title }}
-                {% if link.img != 'none' %}
-                	<img src="{{ site.url }}/images/{{ link.image }}" alt="" width="48" height="48" border="0">
-                {% endif %}
+                <img src="{{ site.url }}/images/{{ link.image }}" alt="" width="48" height="48" border="0">
               </a>
-              <ul class='sub-menu'>
-          		{% for sublink in link.sublinks %}
-          		  	<li>
-              			{% if sublink.url contains 'http' %}
-        	    			{% assign subdomain = '' %}
-       		    			{% else %}
-        	    			{% assign subdomain = site.url %}
-    	      			{% endif %}
-            			<a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
-                			{{ sublink.title }}
-                		</a>
-            		</li>
-        		{% endfor %}
-        		</ul>
           	</li>
 		{% endfor %}
 		</ul>
