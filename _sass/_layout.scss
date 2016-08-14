@@ -409,7 +409,11 @@
 
 .sub-menu {
 	display: none;
-	li{
+	li {
     	display: block;
     }
+}
+
+.menu li:hover ul {
+	display: inherit; 
 }
