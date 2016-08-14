@@ -3,7 +3,7 @@ $(document).ready(function(){
   //console.log('Height: ' + $( 'html' ).height());
 });
 
-$( '.menu li' ).mouseover(function(event){
+$( '.menu li' ).mouseenter(function(event){
   console.log('mouse over!');
   var submenus = $( '.menu li .sub-menu' );
   for(var i = 0; i < submenus.length; i++){
