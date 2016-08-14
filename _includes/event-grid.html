@@ -6,11 +6,12 @@
     <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
   {% endif %}
   </a>
-  {% if event.date %}
+  {% if event.when %}
   <p class="entry-date date published">
-  	<time datetime="{{ event.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
+  	<!--time datetime="{{ event.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
   	  {{ event.date | date: "%B %d, %Y" }}
-    </time>
+    </time-->
+    event.when
   </p>
   {% endif %}
   <h2 class="event-title" itemprop="name">
