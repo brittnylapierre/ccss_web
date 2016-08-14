@@ -41,10 +41,10 @@
   excerpt:
   image:
   sublinks:
-    - title: Events
-      url: /events
-    - title: News
-      url: /news
+    - title: The Team
+      url: /team
+    - title: Lounge & Services
+      url: /lounge
   
 #- title: Home
 #  url: 
