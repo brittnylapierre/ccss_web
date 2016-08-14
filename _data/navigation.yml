@@ -3,7 +3,7 @@
 - title: Community
   url: /community
   excerpt:
-  image: 'none'
+  image:
   sublinks:
     - title: Events
       url: /events
@@ -13,7 +13,7 @@
 - title: Opportunities
   url: /opportunities
   excerpt:
-  image: 'none'
+  image:
   sublinks:
     - title: Volunteer for the CCSS
       url: /volunteer
@@ -25,7 +25,7 @@
 - title: Resources
   url: /resources
   excerpt:
-  image: 'none'
+  image:
   sublinks:
     - title: Free Textbooks
       url: /textbooks
@@ -39,7 +39,7 @@
 - title: About
   url: /about
   excerpt:
-  image: 'none'
+  image:
   sublinks:
     - title: The Team
       url: /team
@@ -51,7 +51,7 @@
 - title: Contact
   url: /contact
   excerpt:
-  image: 'none'
+  image:
   sublinks:
     - title: Email
       url: /form
