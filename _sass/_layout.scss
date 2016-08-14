@@ -113,6 +113,7 @@
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: white;
 			text-transform: uppercase;
+            margin-bottom: (.25 * $masthead-height);
 		}
         a:hover {
 			border-bottom: 1px solid white;
