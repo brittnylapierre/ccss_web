@@ -441,7 +441,9 @@
     margin-top: -550px;
 }
 
-.front-page-logo{
+.front-page-logo {
+	color: white;
+    font-size: 2rem;
 	text-align: center;
 	display: none;
 	position: relative;
@@ -452,6 +454,10 @@
     margin-top: 200px;
     height: 115px;
     width: 920px;
+}
+
+.front-page-logo img {
+	margin-bottom: 15px;
 }
 
 @media only screen and (min-width : 1050px) {
