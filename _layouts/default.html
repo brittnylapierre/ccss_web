@@ -35,6 +35,9 @@
     {% include navigation-sliding.html %}
     
     {% if page.pimage %}
+    <div class='front-page-logo'>
+    <img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="420" height="60" border="0" >
+    </div>
     <div class="page-image-wrapper">
     	<video playsinline autoplay muted loop id="video"> <!--poster="{{ site.url }}/images/techtalk.png"-->
       		<source src="{{ site.url }}/video/typing.mov" type="video/mov">
