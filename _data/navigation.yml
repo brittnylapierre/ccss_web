@@ -27,10 +27,10 @@
   excerpt:
   image:
   sublinks:
-    - title: Student Handbook
-      url: http://ccss.carleton.ca/docs/
     - title: Free Textbooks
       url: /textbooks
+    - title: Student Handbook
+      url: http://ccss.carleton.ca/docs/
     - title: Useful Links
       url: /useful-links
     - title: Support and Advice
