@@ -469,8 +469,8 @@
   .front-page-logo { display: inherit; }
 }
 
-@media only screen and (max-width : 768px) {
-	.page-image-wrapper video { display: none; }
+.page-image-wrapper video { 
+	display: none; 
 }
 
 @media only screen and (max-width : 768px) {
