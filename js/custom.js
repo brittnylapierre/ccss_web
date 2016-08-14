@@ -4,5 +4,10 @@ $(document).ready(function(){
 });
 
 $( '.menu li' ).mouseover(function(event){
-	var submenus = $( '.sub-menu' )
+  console.log('mouse over');
+  var submenus = $( '.menu li .sub-menu' );
+  for(var i = 0; i < submenus.length; i++){
+    submenus[i].css('display', 'inherit');
+    submenus[i].css('visibility', 'hidden');
+  }
 });
