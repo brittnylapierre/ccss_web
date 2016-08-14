@@ -298,7 +298,7 @@
 .page-image-wrapper{
     width: 100vw;
 	object-fit: cover;
-    background-image: url('../images/typing.png'); //{{ site.url }}
+    background-image: url('../images/typing.png');
     overflow:hidden;
 }
 
@@ -467,6 +467,14 @@
 
 @media only screen and (min-width : 1050px) {
   .front-page-logo { display: inherit; }
+}
+
+@media only screen and (max-width : 768px) {
+	.page-image-wrapper video { display: none; }
+}
+
+@media only screen and (max-width : 768px) {
+	.page-image-wrapper video { display: inherit; }
 }
 
 .front-page-logo{
