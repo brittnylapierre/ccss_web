@@ -2,8 +2,6 @@
  
 - title: Community
   url: /community
-  excerpt:
-  image:
   sublinks:
     - title: Events
       url: /events
@@ -12,8 +10,6 @@
 
 - title: Opportunities
   url: /opportunities
-  excerpt:
-  image:
   sublinks:
     - title: Volunteer for the CCSS
       url: /volunteer
@@ -24,8 +20,6 @@
   
 - title: Resources
   url: /resources
-  excerpt:
-  image:
   sublinks:
     - title: Free Textbooks
       url: /textbooks
@@ -38,8 +32,6 @@
   
 - title: About
   url: /about
-  excerpt:
-  image:
   sublinks:
     - title: The Team
       url: /team
@@ -50,8 +42,6 @@
   
 - title: Contact
   url: /contact
-  excerpt:
-  image:
   sublinks:
     - title: Email
       url: /form
@@ -59,4 +49,3 @@
       url: /sponsor
     - title: Social Media
       url: /social
-      
