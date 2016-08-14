@@ -35,9 +35,12 @@
     {% include navigation-sliding.html %}
     
     {% if page.pimage %}
-    <div class="page-image-wrapper">
+    <!--div class="page-image-wrapper">
     	
-    </div>
+    </div-->
+    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+    	<source src="{{ site.url }}/video/typing.mp4" type="video/mp4">
+	</video>
     {% endif %}
 
     <div id="page-wrapper">
