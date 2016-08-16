@@ -28,13 +28,13 @@
   image:
   sublinks:
     - title: Free Textbooks
-      url: /textbooks
+      url: /resources/textbooks.md
     - title: Student Handbook
       url: http://ccss.carleton.ca/docs/
     - title: Useful Links
-      url: /useful-links
+      url: /resources/useful-links.md
     - title: Support and Advice
-      url: /advice
+      url: /resources/advice.md
   
 - title: About
   url: /about
@@ -42,11 +42,11 @@
   image:
   sublinks:
     - title: The Team
-      url: /team
+      url: /about/team.md
     - title: Lounge & Services
-      url: /lounge
+      url: /about/lounge.md
     - title: Government
-      url: /government
+      url: /about/government.md
   
 - title: Contact
   url: /contact
@@ -54,8 +54,8 @@
   image:
   sublinks:
     - title: Email
-      url: /form
+      url: /about/form.md
     - title: Sponsor
-      url: /sponsor
+      url: /about/sponsor.md
     - title: Social Media
-      url: /social
+      url: /about/social-media.md
