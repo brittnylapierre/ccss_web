@@ -28,13 +28,13 @@
   image:
   sublinks:
     - title: Free Textbooks
-      url: /resources/textbooks.md
+      url: /resources/textbooks/
     - title: Student Handbook
       url: http://ccss.carleton.ca/docs/
     - title: Useful Links
-      url: /resources/useful-links.md
+      url: /resources/links/
     - title: Support and Advice
-      url: /resources/advice.md
+      url: /resources/advice/
   
 - title: About
   url: /about
