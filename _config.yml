@@ -5,7 +5,7 @@ description: "This is a description of my awesome site."
 logo: ccss-logo.png # 120x120 px default image used for Twitter summary card
 teaser: teaser.png # 400x250 px default teaser image used in image archive grid
 locale: en
-url: "http://www.codemesoftly/ccss_web"
+url: "http://www.codemesoftly.com/ccss_web"
 baseurl: '/ccss_web'
 feed:
   path: atom.xml
