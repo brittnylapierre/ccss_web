@@ -6,9 +6,9 @@
   image:
   sublinks:
     - title: Events
-      url: /events
+      url: /events.md
     - title: News
-      url: /news
+      url: /news.md
 
 - title: Opportunities
   url: /opportunities
