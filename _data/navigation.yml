@@ -16,11 +16,11 @@
   image:
   sublinks:
     - title: Volunteer for the CCSS
-      url: /opportunities/volunteer
+      url: /opportunities/volunteer.md
     - title: External Volunteering
-      url: /opportunities/external
+      url: /opportunities/external.md
     - title: Job Postings
-      url: /opportunities/jobs
+      url: /opportunities/jobs.md
   
 - title: Resources
   url: /resources
