@@ -42,11 +42,11 @@
   image:
   sublinks:
     - title: The Team
-      url: /about/team.md
+      url: /about/team/
     - title: Lounge & Services
-      url: /about/lounge.md
+      url: /about/lounge/
     - title: Government
-      url: /about/government.md
+      url: /about/government/
   
 - title: Contact
   url: /contact
@@ -54,8 +54,8 @@
   image:
   sublinks:
     - title: Email
-      url: /about/form.md
+      url: /about/form/
     - title: Sponsor
-      url: /about/sponsor.md
+      url: /about/sponsor/
     - title: Social Media
-      url: /about/social-media.md
+      url: /about/social-media/
