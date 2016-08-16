@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /resources/lounge/
+permalink: /about/lounge/
 title: Lounge & Services
 published: true
 ---
