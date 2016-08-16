@@ -54,8 +54,8 @@
   image:
   sublinks:
     - title: Email
-      url: /about/form/
+      url: /contact/form/
     - title: Sponsor
-      url: /about/sponsor/
+      url: /contact/sponsor/
     - title: Social Media
-      url: /about/social-media/
+      url: /contact/social-media/
