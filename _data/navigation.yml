@@ -1,7 +1,7 @@
 # Site navigation links
  
 - title: Community
-  url: /community
+  url: /community/events.md
   excerpt:
   image:
   sublinks:
@@ -16,11 +16,11 @@
   image:
   sublinks:
     - title: Volunteer for the CCSS
-      url: /volunteer
+      url: /opportunities/volunteer
     - title: External Volunteering
-      url: /external
+      url: /opportunities/external
     - title: Job Postings
-      url: /jobs
+      url: /opportunities/jobs
   
 - title: Resources
   url: /resources
