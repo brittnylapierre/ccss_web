@@ -1,5 +1,31 @@
 <footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
+      <nav role="navigation" class="menu bottom-menu">
+          <ul class="menu-item">
+          {% for link in site.data.navigation %}
+              {% if link.url contains 'http' %}
+                  {% assign domain = '' %}
+              {% else %}
+                  {% assign domain = site.url %}
+              {% endif %}
+              <li>
+                  <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
+                  <ul class='sub-menu'>
+                  {% for sublink in link.sublinks %}
+          			<li>
+              			{% if sublink.url contains 'http' %}
+        	    			{% assign subdomain = '' %}
+       		    		{% else %}
+        	    			{% assign subdomain = site.url %}
+    	      			{% endif %}
+            			<a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
+                			{{ sublink.title }}
+                		</a>
+            		</li>
+        		{% endfor %}
+              	</ul>
+              </li>
+  		{% endfor %}
+        </ul>
 		<ul class="menu-item">
 		{% for link in site.data.footer %}
       		{% if link.url contains 'http' %}
