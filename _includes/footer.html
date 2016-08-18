@@ -9,7 +9,7 @@
               {% endif %}
               <li>
                   <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a>
-                  <ul class='sub-menu'>
+                  <ul>
                   {% for sublink in link.sublinks %}
           			<li>
               			{% if sublink.url contains 'http' %}
