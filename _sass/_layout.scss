@@ -440,6 +440,22 @@
     position: relative;
 }
 
+.footer-sub-menu{
+	display: inline-block;
+    position: relative;
+	li {
+		a {
+			//font-weight: 200;
+			@include font-size(15,no);
+            padding: 0;
+        }
+    	font-family: Calibri,sans-serif;
+    	font-weight: lighter;
+    	float: none;
+    	display: block;
+    }
+}
+
 #video{
 	margin-left: -1800px;
     margin-top: -1150px;
