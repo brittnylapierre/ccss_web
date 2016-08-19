@@ -426,6 +426,9 @@
     .nav-links{
     	width: 65.8vw;
         margin-top: 30px;
+        li {
+			margin-right: 30px;
+		} 
     }
     .social-media-links{
     	width: 29vw;/*optimal is 400px*/
@@ -438,10 +441,6 @@
         }
     }
 }
-
-.nav-links ul li {
-	margin-right: 30px;
-} 
 
 .sub-menu {
 	display: none;
