@@ -423,9 +423,11 @@
 .bottom-menu .menu-item{
 	width: 100vw;
     display: inline-block;
-    li {
-    	position: relative;
-        margin: auto;
+    ul{
+    	li {
+    		position: relative;
+        	margin: auto;
+        }
     }
 }
 
