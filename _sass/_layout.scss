@@ -422,7 +422,11 @@
 
 .bottom-menu .menu-item{
 	width: 100%;
-    display: block;
+    display: inline-block;
+    li {
+    	position: relative;
+        margin: auto;
+    }
 }
 
 .sub-menu {
