@@ -427,19 +427,23 @@
     	position: relative;
     	margin: auto;
     	width: 617px;
+        li {
+    		display: inline-block
+        }
     }
     .social-media-links{
     	position: relative;
     	margin: auto;
     	width: 400px;
+        li {
+    		display: inline-block
+        }
     }
     ul{
-    	width: 1000px;
         position: relative;
         margin: auto;
     	li {
-    		position: relative;
-        	margin: auto;
+    		display: inline-block
         }
     }
 }
