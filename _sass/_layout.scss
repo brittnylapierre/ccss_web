@@ -424,7 +424,9 @@
 	width: 100vw;
     display: inline-block;
     ul{
-    	max-width: 1000px;
+    	width: 1000px;
+        position: relative;
+        margin: auto;
     	li {
     		position: relative;
         	margin: auto;
