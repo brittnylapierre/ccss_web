@@ -424,7 +424,7 @@
 	width: 100vw;
     display: inline-block;
     .nav-links{
-    	width: 46.1vw;/*optimal is ~630px*/
+    	width: 65.8vw;
     }
     .social-media-links{
     	width: 29vw;/*optimal is 400px*/
@@ -437,6 +437,10 @@
         }
     }
 }
+
+.nav-links ul li {
+	margin-right: 30px;
+} 
 
 .sub-menu {
 	display: none;
