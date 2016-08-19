@@ -423,6 +423,16 @@
 .bottom-menu .menu-item{
 	width: 100vw;
     display: inline-block;
+    .nav-links{
+    	position: relative;
+    	margin: auto;
+    	width: 617px;
+    }
+    .social-media-links{
+    	position: relative;
+    	margin: auto;
+    	width: 400px;
+    }
     ul{
     	width: 1000px;
         position: relative;
