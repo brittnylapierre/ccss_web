@@ -35,17 +35,20 @@
     {% include navigation-sliding.html %}
     
     {% if page.pimage %}
-    <div class="page-image-wrapper">
+    <div class="page-image-wrapper" style="background-image: url('../images/{{ page.pimage }}')">
+        {% if page.subjecttext %}
         <div class='front-page-logo'>
-    		<img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="920" height="115" border="0" >
-          	CARLETON COMPUTER SCIENCE SOCIETY
+            {% if page.showlogo %}
+    			<img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="920" height="115" border="0" >
+            {% endif %}
+          	page.subjecttext
    		</div>
+        {% endif %}
     	<!--video playsinline autoplay muted loop id="video"> <!--poster="{{ site.url }}/images/typing.png">
       		<source src="{{ site.url }}/video/typing2.mov" type="video/mov">
      		<source src="{{ site.url }}/video/typing2.mp4" type="video/mp4">
 		</video-->
     </div>
-    
     {% endif %}
 
     <div id="page-wrapper">
