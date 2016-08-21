@@ -13,7 +13,7 @@ subjectstyle: 'font-size: 10rem; border-bottom: 5px solid white; border-top: 5px
 	<ul class='job-list'>
 	{% for job in site.categories.jobpostings %}
     	<li class='job-list-item'>
-        	<h3>{{ job.title }}</h3>
+        	<a href='#'><h3>{{ job.title }}</h3></a>
             <table class='job-detail-table'>
            		<tr>
                 	<td>Company:</td>
