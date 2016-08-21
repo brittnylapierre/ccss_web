@@ -13,7 +13,7 @@ subjectstyle: 'font-size: 10rem; border-bottom: 5px solid white; border-top: 5px
 	<ul class='job-list'>
 	{% for job in site.categories.jobpostings %}
     	<li class='job-list-item'>
-        	<h1>{{ job.title }}</h1>
+        	<h3>{{ job.title }}</h1>
             <table class='job-detail-table'>
            		<tr>
                 	<td>Company:</td>
@@ -24,7 +24,7 @@ subjectstyle: 'font-size: 10rem; border-bottom: 5px solid white; border-top: 5px
                     <td>{{ job.deadline }}</td>
                 </tr>
             </table>
-            <h2>Description</h2>
+            <h4>Description</h2>
             <p>{{ job.description }}</p>
     	</li>
 	{% endfor %}
