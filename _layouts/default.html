@@ -36,14 +36,18 @@
     
     {% if page.pimage %}
     <div class="page-image-wrapper" style="background-image: url('{{ page.pimage }}'); font-size:{{ page.subjectsize }};">
-        {% if page.subjecttext %}
+        {% if page.showlogo %}
         <div class='front-page-logo' style="font-size: {{ page.subjectsize }}">
+        {% else %}
+        <div class='front-page-subject' style="font-size: {{ page.subjectsize }}">
+        {% endif %}
             {% if page.showlogo %}
     			    <img src="{{ site.url }}/images/ccss-logo.png" alt="logo" width="920" height="115" border="0" >
             {% endif %}
-          	{{ page.subjecttext }}
+            {% if page.subjecttext %}
+          		{{ page.subjecttext }}
+            {% endif %}
    		  </div>
-        {% endif %}
     	<!--video playsinline autoplay muted loop id="video"> <!--poster="{{ site.url }}/images/typing.png">
       		<source src="{{ site.url }}/video/typing2.mov" type="video/mov">
      		<source src="{{ site.url }}/video/typing2.mp4" type="video/mp4">
