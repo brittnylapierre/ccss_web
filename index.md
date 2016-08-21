@@ -16,7 +16,7 @@ subjectsize: 2rem
 	{% endfor %}
 	</div>
 
-	<h1>Recent Articles</h1>
+	<h1>Recent News</h1>
 	<div class="tiles">
 	{% for post in site.categories.blog %}
 		{% include post-grid.html %}
