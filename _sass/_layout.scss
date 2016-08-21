@@ -425,6 +425,26 @@
 
 
 //TODO: optimize for mobile
+
+.footer-sub-menu{
+	display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-top: 20px;
+	li {
+		a {
+			//font-weight: 200;
+			@include font-size(15,no);
+            padding: 0;
+        }
+    	font-family: Calibri,sans-serif;
+    	font-weight: lighter;
+        color: grey;
+    	float: none;
+    	display: block;
+    }
+}
+
 .bottom-menu .menu-item{
 	width: 100vw;
     display: inline-block;
@@ -466,25 +486,6 @@
 .menu li:hover .sub-menu {
 	display: inline-block;
     position: relative;
-}
-
-.footer-sub-menu{
-	display: inline-block;
-    position: relative;
-    text-align: left;
-    margin-top: 20px;
-	li {
-		a {
-			//font-weight: 200;
-			@include font-size(15,no);
-            padding: 0;
-        }
-    	font-family: Calibri,sans-serif;
-    	font-weight: lighter;
-        color: grey;
-    	float: none;
-    	display: block;
-    }
 }
 
 #video{
