@@ -1,10 +1,9 @@
 ---
-layout: media
+layout: default
 permalink: /opportunities/volunteer/
 title: Volunteer
 published: true
-image:
-  feature: collaborate_2.jpg
+pimage: ./images/collaborate_2.jpg
+subjecttext: JOIN US
 ---
-
 Volunteer for ccss!
