@@ -5,17 +5,17 @@ title: Home
 published: true
 pimage: ./images/techtalk.png
 subjecttext: CARLETON COMPUTER SCIENCE SOCIETY
-showlogo: true 
+showlogo: true
 subjectsize: 2rem
 ---
-<h5>Events</h5>
+<h1>Events</h1>
 <div class="tiles">
 {% for event in site.categories.events %}
 	{% include event-grid.html %}
 {% endfor %}
 </div>
 
-<h5>Recent Articles</h5>
+<h1>Recent Articles</h1>
 <div class="tiles">
 {% for post in site.categories.blog %}
 	{% include post-grid.html %}
