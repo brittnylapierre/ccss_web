@@ -164,6 +164,11 @@
 .content-wrap{
 	width: 80vw;
 }
+
+.content-wrap > *{
+	float: left;
+    text-align: center;
+}
 /*
    Main content
    ========================================================================== */
