@@ -5,6 +5,6 @@ title: Volunteer
 published: true
 pimage: ../../images/fall_1.jpg
 subjecttext: JOIN US
-subjectsize: 6rem
+subjectsize: 9rem
 ---
 Volunteer for ccss!
