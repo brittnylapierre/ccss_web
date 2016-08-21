@@ -471,8 +471,6 @@
 	display: inline-block;
     position: relative;
     text-align: left;
-    font-weight: lighter;
-    color: grey;
 	li {
 		a {
 			//font-weight: 200;
@@ -481,6 +479,7 @@
         }
     	font-family: Calibri,sans-serif;
     	font-weight: lighter;
+        color: grey;
     	float: none;
     	display: block;
     }
