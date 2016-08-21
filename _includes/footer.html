@@ -1,3 +1,20 @@
+<div class='social-media-box'>
+	<ul class='social-media-links'>
+		{% for link in site.data.footer %}
+      		{% if link.url contains 'http' %}
+       			{% assign domain = '' %}
+       		{% else %}
+       			{% assign domain = site.url %}
+     		{% endif %}
+			<li>
+             	<a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>
+              		{{ link.title }}
+               		<img src="{{ site.url }}/images/{{ link.image }}" alt="" width="48" height="48" border="0">
+             	</a>
+          	</li>
+		{% endfor %}
+	</ul>
+</div>
 <footer role="contentinfo" id="site-footer">
       <nav role="navigation" class="menu bottom-menu">
           <div class="menu-item">
