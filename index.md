@@ -4,6 +4,8 @@ permalink: /
 title: Home
 published: true
 pimage: ./images/techtalk.png
+subjecttext: CARLETON COMPUTER SCIENCE SOCIETY
+showlogo: true 
 ---
 <h5>Events</h5>
 <div class="tiles">
