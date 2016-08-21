@@ -35,7 +35,7 @@
     {% include navigation-sliding.html %}
     
     {% if page.pimage %}
-    <div class="page-image-wrapper" style="background-image: url('../images/{{ page.pimage }}')">
+    <div class="page-image-wrapper" style="background-image: url('{{ page.pimage }}')">
         {% if page.subjecttext %}
         <div class='front-page-logo'>
             {% if page.showlogo %}
