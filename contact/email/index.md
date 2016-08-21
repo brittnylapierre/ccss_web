@@ -4,7 +4,9 @@ permalink: /contact/email/
 title: Contact Us
 published: true
 ---
-<form action="https://formspree.io/brittny.lapierre@gmail.com" method="POST">
+<h1>Have a question? Send us a message.</h1>
+
+<form class="basic-form" action="https://formspree.io/brittny.lapierre@gmail.com" method="POST">
     <input type="hidden" name="_subject" value="Email Page" />
     <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
     <input type="text" name="name" placeholder="Name">
