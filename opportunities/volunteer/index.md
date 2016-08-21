@@ -3,7 +3,7 @@ layout: default
 permalink: /opportunities/volunteer/
 title: Volunteer
 published: true
-pimage: ../../images/students_walking.jpg
+pimage: ../../images/collaborate_4.jpg
 subjecttext: JOIN US
 subjectstyle: 'font-size: 9rem; margin-top: 23vh; border: 5px solid white; cursor: pointer;'
 ---
