@@ -8,6 +8,7 @@ subjecttext: JOBS
 subjectstyle: 'font-size: 10rem; border-bottom: 5px solid white; border-top: 5px solid white;'
 ---
 
+<!--TODO: Paginate-->
 <div class="content-wrap">
 	<h1>Jobs</h1>
 	<ul class='job-list'>
