@@ -166,8 +166,9 @@
 }
 
 .content-wrap > *{
-	float: left;
-    text-align: center;
+	display:inlin-block;
+    position: relative;
+    margin: auto;
 }
 /*
    Main content
