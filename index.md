@@ -6,6 +6,7 @@ published: true
 pimage: ./images/techtalk.png
 subjecttext: CARLETON COMPUTER SCIENCE SOCIETY
 showlogo: true 
+subjectsize: 2rem
 ---
 <h5>Events</h5>
 <div class="tiles">
