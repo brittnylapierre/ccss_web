@@ -323,19 +323,28 @@
 
 /* example media queries */
 @media only screen and (min-width : 320px) {
-  .page-image-wrapper { height: 428px; }
+  //.page-image-wrapper { height: 428px; }
 }
 
 @media only screen and (min-width : 768px) and (orientation:landscape){
-  .page-image-wrapper { height: 560px; }
+  .page-image-wrapper {
+  	padding-top: 17vh;
+    padding-bottom: 17vh;
+  }
 }
 
 /*@media only screen and (min-width : 1366px) {
-  .page-image-wrapper { height: 820px; }
+  .page-image-wrapper {
+  	padding-top: 17vh;
+    padding-bottom: 17vh;
+  }
 }*/
 
 @media only screen and (min-width : 1920px) {
-  .page-image-wrapper { height: 820px; }
+  .page-image-wrapper {
+  	padding-top: 17vh;
+    padding-bottom: 17vh;
+  }
 }
 
 // make image flush with edges on small screens
