@@ -589,5 +589,8 @@
 	list-style-type: none;
     li {
     	padding-bottom: 50px;
+        a {
+        	text-decoration: none;
+        }
     }
 }
