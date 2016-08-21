@@ -5,7 +5,9 @@ title: Volunteer
 published: true
 pimage: ../../images/collaborate_4.jpg
 subjecttext: JOIN US
-subjectstyle: 'font-size: 9rem; margin-top: 23vh; cursor: pointer; border: 5px solid cornsilk;'
+subjectstyle: >-
+  font-size: 9rem; margin-top: 23vh; cursor: pointer; border: 5px solid
+  cornsilk;
 ---
 <div class='content-wrap'>
 	<h1>Why become a CCSS Volunteer?</h1>
