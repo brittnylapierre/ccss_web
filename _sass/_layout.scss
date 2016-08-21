@@ -61,6 +61,8 @@
 			padding-top: (.25 * $masthead-height); // 0 (.25 * $masthead-height);
 			//height: $masthead-height;
 			font-family: $alt-font;
+            font-size: 1.5rem;
+            color: white;
 			&:before,
 			&:after {
 				content: '';
@@ -406,8 +408,6 @@
 		a {
 			color: lighten($black,60);
 			text-decoration: none;
-            font-size: 1.5rem;
-            color: white;
 		}
         text-align: center;
 	}
