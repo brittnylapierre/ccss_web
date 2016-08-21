@@ -521,5 +521,16 @@
 	.page-image-wrapper video { display: inline-block; }
 }
 
-.front-page-logo{
+
+.front-page-subject {
+	color: white;
+	text-align: center;
+	display: none;
+	position: relative;
+    z-index: 10;
+    width: 45%;
+    position: relative;
+    margin: auto;
+    margin-top: 25vh;
+    border: 5px solid white;
 }
