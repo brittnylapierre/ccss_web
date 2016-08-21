@@ -25,7 +25,7 @@ subjectstyle: 'font-size: 10rem; border-bottom: 5px solid white; border-top: 5px
                     <td>{{ job.deadline }}</td>
                 </tr>
             </table>
-            <h4>Description</h2>
+            <h4>Description</h4>
             <p>{{ job.description }}</p>
     	</li>
 	{% endfor %}
