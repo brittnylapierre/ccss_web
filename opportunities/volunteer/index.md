@@ -3,9 +3,9 @@ layout: default
 permalink: /opportunities/volunteer/
 title: Volunteer
 published: true
-pimage: ../../images/fall_1.jpg
+pimage: ../../images/students_walking.jpg
 subjecttext: JOIN US
-subjectstyle: 'font-size: 9rem; margin-top: 25vh; border: 5px solid white; cursor: pointer;'
+subjectstyle: 'font-size: 9rem; margin-top: 23vh; border: 5px solid white; cursor: pointer;'
 ---
 <div class='content-wrap'>
 	<h1>Why become a CCSS Volunteer?</h1>
