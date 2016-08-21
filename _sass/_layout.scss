@@ -489,17 +489,13 @@
 
 .front-page-logo {
 	color: white;
-    //font-size: 2rem;
 	text-align: center;
 	display: none;
 	position: relative;
     float: left;
     z-index: 10;
-    //margin-left: 15vw;
-    //width: 920px;
     width: 100vw;
     margin-top: 30vh;
-   // height: 115px;
 }
 
 .front-page-logo img {
@@ -523,7 +519,7 @@
 
 
 .front-page-subject {
-	color: cornsilk;
+	/*color: cornsilk;
 	text-align: center;
     z-index: 10;
     width: 45%;
@@ -531,5 +527,11 @@
     margin: auto;
     margin-top: 25vh;
     border: 5px solid white;
-    cursor: pointer;
+    cursor: pointer;*/
+    color: cornsilk; 
+    text-align: center; 
+    z-index: 10; 
+    width: 45%; 
+    position: relative; 
+    margin: auto;
 }
