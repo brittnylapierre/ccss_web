@@ -565,7 +565,6 @@
 
 
 .front-page-subject {
-	visibility: hidden;
     min-width: 336px;
     color: white; 
     text-align: center; 
@@ -573,12 +572,6 @@
     width: 45%; 
     position: relative; 
     margin: auto;
-}
-
-@media only screen and (min-width: 500px) {
-	.front-page-subject {
-		visibility: visible;
-    }
 }
 
 .basic-form {
