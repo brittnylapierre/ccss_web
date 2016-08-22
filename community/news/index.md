@@ -13,4 +13,5 @@ published: true
   		{% include post-grid.html %}
 	{% endfor %}
 	</div>
+    <h3>Want to write an article? Let us know!</h3>
 </div>
