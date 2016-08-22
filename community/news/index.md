@@ -4,6 +4,7 @@ permalink: /community/news/
 title: News
 published: true
 ---
+<div class='search-box'>Search</div>
 <div class='content-wrap'>
 	<h1 class='big-page-title'>CS @Carleton</h1>
     <h2>Your source for computer science news and tutorials</h2>
