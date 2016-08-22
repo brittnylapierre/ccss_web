@@ -565,7 +565,7 @@
 
 
 .front-page-subject {
-	display: none;
+	visibility: hidden;
     min-width: 336px;
     color: white; 
     text-align: center; 
@@ -577,7 +577,7 @@
 
 @media only screen and (min-width : 1024px) {
 	.front-page-subject {
-		display: inherit;
+		visibility: visible;
     }
 }
 
