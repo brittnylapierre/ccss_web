@@ -9,12 +9,12 @@ showlogo: true
 subjectsize: 2rem
 ---
 <div class="content-wrap">
-	<h1>Events</h1>
+	<!--h1>Events</h1>
 	<div class="tiles">
 	{% for event in site.categories.events %}
 		{% include event-grid.html %}
 	{% endfor %}
-	</div>
+	</div-->
 
 	<h1>Recent News</h1>
 	<div class="tiles">
