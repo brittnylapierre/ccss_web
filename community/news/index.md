@@ -4,7 +4,6 @@ permalink: /community/news/
 title: News
 published: true
 ---
-
 <div class='content-wrap'>
 	<h1>CS @Carleton</h1>
 	<div class="tiles">
