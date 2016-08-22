@@ -576,7 +576,9 @@
 }
 
 @media only screen and (min-width : 1024px) {
-	display: inherit;
+	.front-page-subject {
+		display: inherit;
+    }
 }
 
 .basic-form {
