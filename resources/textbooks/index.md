@@ -4,7 +4,7 @@ permalink: /resources/textbooks/
 title: Free Textbooks
 published: true
 pimage: ../../images/study_3.jpg
-subjecttext: FREE TEXTBOOKS
+subjecttext: FREE BOOKS
 subjectstyle: >-
   font-size: 7rem; cursor: pointer; border-bottom: 5px solid white; border-top:
   5px solid white;
