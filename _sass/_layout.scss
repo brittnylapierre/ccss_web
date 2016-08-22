@@ -565,6 +565,7 @@
 
 
 .front-page-subject {
+	display: none;
     min-width: 336px;
     color: white; 
     text-align: center; 
@@ -572,6 +573,10 @@
     width: 45%; 
     position: relative; 
     margin: auto;
+}
+
+@media only screen and (min-width : 1024px) {
+	display: inherit;
 }
 
 .basic-form {
