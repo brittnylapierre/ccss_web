@@ -517,6 +517,7 @@
 .sub-menu {
 	display: none;
 	li {
+        text-align: left;
 		a {
 			//font-weight: 200;
 			@include font-size(15,no);
