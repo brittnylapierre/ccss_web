@@ -99,14 +99,14 @@
 	position: relative;
 	/*@include media($medium) {
 		@include span-columns(12);
-	}*/
+	}
 	@include media($large) {
 		//@include span-columns(7);
 		ul {
 			//position: absolute;
 			right: 0;
 		}
-	}
+	}*/
     width: 71%;
 	.home,
 	.sub-menu-item {
