@@ -7,6 +7,8 @@
    ========================================================================== */
 
 #masthead {
+	position: absolute;
+    width: 100vw;
 	padding: $gutter;
     background-color: black;
 	z-index: 5;
