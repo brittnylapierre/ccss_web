@@ -604,17 +604,20 @@
 	.big-page-title{
 		font-size: 2.5rem;
 	}
+    .page-sub-title{
+		font-size: 1.5rem;
+    	text-align: center;
+	}
 }
 
 @media only screen and (min-width : 768px) {
 	.big-page-title{
 		font-size: 7rem;
 	}
-}
-
-.page-sub-title{
-	font-size: 2.5rem;
-    text-align: center;
+    .page-sub-title{
+		font-size: 2.5rem;
+    	text-align: center;
+	}
 }
 
 .classy-link{
