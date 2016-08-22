@@ -36,6 +36,7 @@
 	@include font-size(20,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
+    max-width: 250PX;
 }
 .site-title:hover{
     color: #EBEBEB;
