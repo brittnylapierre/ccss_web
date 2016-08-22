@@ -6,8 +6,8 @@ published: true
 pimage: ../../images/study_3.jpg
 subjecttext: FREE TEXTBOOKS
 subjectstyle: >-
-  font-size: 9rem; cursor: pointer; border: 5px solid
-  white;
+  font-size: 7rem; cursor: pointer; border-bottom: 5px solid
+  white; border-top: 5px solid white;
 ---
 <div class='content-wrap'>
 	<h1>Free stuff is good stuff.</h1>
