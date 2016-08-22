@@ -111,7 +111,7 @@
 		display: none;
 	}
 	li {
-    	width: 150px;
+    	width: 200px;
 		a {
 			font-weight: 300;
 			@include font-size(18,no);
@@ -520,7 +520,7 @@
 	li {
         
 		a {
-            max-width: 150px;
+            max-width: 200px;
 			//font-weight: 200;
 			@include font-size(15,no);
             padding: 0;
