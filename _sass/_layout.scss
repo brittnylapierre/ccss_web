@@ -18,7 +18,7 @@
 		@include transform(translate(-1600px,0));
 	}
 	.inner-wrap {
-		@include outer-container;
+		//@include outer-container;
 	}
 }
 
