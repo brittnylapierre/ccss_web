@@ -610,9 +610,13 @@
 }
 
 .classy-link{
-	width: 150px;
+	display: block;
+    max-width: 227px;
     position: relative;
     margin: auto;
-	border: 3px solid black;
+    border: 3px solid black;
     color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 2rem;
 }
