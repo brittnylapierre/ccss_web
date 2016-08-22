@@ -27,7 +27,6 @@
 	@include media($large) {
 		@include span-columns(1);
 	}
-    max-width: 25%;
 	//padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
