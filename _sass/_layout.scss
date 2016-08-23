@@ -11,7 +11,7 @@
     width: 100vw;
 	padding: $gutter;
     background-color: black;
-	z-index: 5;
+	z-index: 11;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
