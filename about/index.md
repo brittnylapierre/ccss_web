@@ -13,11 +13,9 @@ published: true
 
 <h1>Government</h1>
 <h1>Our mandate</h1>
-<p>
-to engage Carleton University’s School of Computer Science undergraduate students in social and academic activities.
-to provide services for those students to aid in their academic career at Carleton.
-to represent those students to the Carleton University community
-</p>
+<p>To engage Carleton University’s School of Computer Science undergraduate students in social and academic activities. 
+To provide services for those students to aid in their academic career at Carleton.
+To represent those students to the Carleton University community</p>
 
 <!--As an academic society we are required to have a government structure. Links to all of this official documents ‘n stuff.
 Constitution
