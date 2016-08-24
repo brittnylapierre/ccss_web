@@ -8,9 +8,7 @@ published: true
 <div class='content-wrap'>
   <h1>The CCSS</h1>
 
-  <p>Carleton Computer Science Society (CCSS) is an academic society that aims to create opportunities and resources for computer science students and anyone who is interested in similar fields.</p>
-
-  <p>We represent undergraduate Computer Science students at Carleton University in Ottawa academically, socially, and technically.</p>
+  <p>Carleton Computer Science Society (CCSS) is an academic society that aims to create opportunities and resources for computer science students and anyone who is interested in similar fields. We represent undergraduate Computer Science students at Carleton University in Ottawa academically, socially, and technically.</p>
 
   <h1>Government</h1>
   <h3>Our mandate</h3>
