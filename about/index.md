@@ -3,8 +3,7 @@ layout: default
 permalink: about/
 title: About
 published: true
-subjecttext: THE CCSS
-subjectstyle: 'font-size: 10rem; color: #313130; border-bottom: 5px solid #313130;'
+pimage: ../../images/collaborate_3.jpg
 ---
 
 <div class='content-wrap'>
