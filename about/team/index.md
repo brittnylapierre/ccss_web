@@ -5,7 +5,7 @@ title: Team
 published: true
 ---
 <div class='content-wrap'>
-  <h1 class="big-page-title">The Team</h1>
+  <h1>The Team</h1>
   <h5>Elisa Kazan, President (elisa.kazan@ccss.carleton.ca)</h5>
   <p>I am a 3rd year student in the mobile stream and an LTE software developer intern at Ericsson. I’m energetic, outgoing and love to get involved with events and CS outreach. Tea > Coffee</p>
   
