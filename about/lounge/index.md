@@ -15,5 +15,6 @@ published: true
 </div>
 
 <h1>GAMES</h1>
+<p>Board games? Video games? Card games? We have it all. Check out our selection <a href='https://docs.google.com/spreadsheets/d/1U95tQdS5STzrbfIILKGxJU-YITvph1yzRQ9tKfhiFj4/edit?usp=sharing'>here</a>.</p>
 <div class="page-image-wrapper parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ps3.jpg'); font-size:{{ page.subjectsize }};">
 </div>
