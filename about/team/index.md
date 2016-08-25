@@ -4,5 +4,5 @@ permalink: /about/team/
 title: Team
 published: true
 ---
-
-Team
+<div id='content-wrap'>
+</div>
