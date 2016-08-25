@@ -20,5 +20,4 @@ published: true
 
   <h3>Andrew Morris (andrew.morris@ccss.carleton.ca)</h3>
   <p>I'm in the business systems stream. I’ve done a great deal of volunteer work pertaining to the lounge and technical resources. Coffee is what keeps me going.</p>
-
 </div>
