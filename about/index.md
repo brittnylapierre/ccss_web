@@ -3,7 +3,7 @@ layout: default
 permalink: about/
 title: About
 published: true
-pimage: ../../images/collaborate_3.jpg
+pimage: ../images/collaborate_3.jpg
 ---
 
 <div class='content-wrap'>
