@@ -36,11 +36,11 @@ subjectstyle: >-
 </div>
 <div class='content-wrap'>
   <h1>And more...</h1>
-  <h3>Microwave</h3>
+  <h4>Microwave</h4>
   <p>The microwave is in the lounge and always accessible. It is provided as a courtesy by the society so please keep it clean!</p>
-  <h3>Printer</h3>
+  <h4>Printer</h4>
   <p>We have free printing for all CS students. Just email the printer at ccssprinter@gmail.com and get one of the volunteers in the office to print it for you.</p>
-  <h3>Office Supplies</h3>
+  <h4>Office Supplies</h4>
   <p>Yes we have office supplies! You are more than welcome to borrow them as long as you bring them back.</p>
   <!--
   
