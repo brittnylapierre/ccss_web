@@ -3,6 +3,8 @@ layout: default
 permalink: /about/lounge/
 title: Lounge & Services
 published: true
+subjecttext: THE LOUNGE
+subjectstyle: 'font-size: 10rem; border-bottom: 5px solid black;'
 ---
 <!--h1 class='big-page-title centered'>THE LOUNGE</h1-->
 <div class='content-wrap'>
