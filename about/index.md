@@ -4,6 +4,7 @@ permalink: about/
 title: About
 published: true
 pimage: ../images/code_5.jpg
+subjecttext: THE CCSS
 ---
 
 <div class='content-wrap'>
