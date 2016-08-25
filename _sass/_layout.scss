@@ -678,3 +678,12 @@ ul {
 .bottom-page-link {
 	margin-top: 50px;
 }
+
+.boardered-list{
+	li {
+        border-bottom: 1px solid black;
+    }
+    #first-item{
+    	border-top: 1px solid black;
+    }
+}
