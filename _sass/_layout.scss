@@ -5,9 +5,6 @@
 /*
    Masthead
    ========================================================================== */
-ul {
-	list-style-image: url('../images/dash.jpg');
-}
 
 #masthead {
 	position: absolute;
@@ -705,4 +702,8 @@ ul {
 .dark {
 	background-color: #3A3D42;
     color: whitesmoke;
+}
+
+.dash-list {
+	list-style-image: url('../images/dash.jpg');
 }
