@@ -4,7 +4,7 @@ permalink: /about/team/
 title: Team
 published: true
 ---
-<div id='content-wrap'>
+<div class='content-wrap'>
   <h1>The Team</h1>
   <h3>Elisa Kazan, President (elisa.kazan@ccss.carleton.ca)</h3>
   <p>I am a 3rd year student in the mobile stream and an LTE software developer intern at Ericsson. I’m energetic, outgoing and love to get involved with events and CS outreach. Tea > Coffee</p>
