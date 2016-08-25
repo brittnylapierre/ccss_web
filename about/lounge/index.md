@@ -10,6 +10,7 @@ published: true
 </div>
 
 <h1>LIBRARY</h1>
+<p>Textbooks are expensive so why not share them? The CCSS now has a library which anyone can borrow from. We have a wide selection of books including discrete structures, Java, calculus and so much more! Please make sure to return the books when you’re done with it. If you have book you would like to donate, email us at info@ccss.carleton.ca with the subject “Textbook Donation”.</p>
 <div class="page-image-wrapper parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/library_1.jpg'); font-size:{{ page.subjectsize }};">
 </div>
 
