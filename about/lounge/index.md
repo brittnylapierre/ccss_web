@@ -34,3 +34,21 @@ subjectstyle: >-
   <div class="page-image-wrapper parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ps3.jpg'); font-size:{{ page.subjectsize }};">
   </div>
 </div>
+<div class='content-wrap'>
+  <h1>And more...</h1>
+  <h3>Microwave</h3>
+  <p>The microwave is in the lounge and always accessible. It is provided as a courtesy by the society so please keep it clean!</p>
+  <h3>Printer</h3>
+  <p>We have free printing for all CS students. Just email the printer at ccssprinter@gmail.com and get one of the volunteers in the office to print it for you.</p>
+  <h3>Office Supplies</h3>
+  <p>Yes we have office supplies! You are more than welcome to borrow them as long as you bring them back.</p>
+  <!--
+  
+Stapler
+Whiteboard Markers
+Hole Puncher
+CDs
+Etc
+  
+  -->
+</div>
