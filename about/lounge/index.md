@@ -13,6 +13,6 @@ published: true
 	LIBRARY
 </div>
 
-<div class="page-image-wrappe parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ps3.jpg'); font-size:{{ page.subjectsize }};">
+<div class="page-image-wrapper parallax" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ps3.jpg'); font-size:{{ page.subjectsize }};">
 	GAMES
 </div>
