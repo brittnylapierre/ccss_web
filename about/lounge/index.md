@@ -12,7 +12,7 @@ subjectstyle: >-
 <div class='content-wrap'>
   <h5>Come hangout with other CS students and enjoy our free high speed wifi and ethernet!</h5>
   <p>Our lounge is open to all students 24/7, located at HP 4135. The office is located inside and is open from 9:00am-12:00pm and 1:00pm-4:00pm (same hours as SCS). See our office hours <a href='https://docs.google.com/document/d/12O7-Go1fXleEh2IGSiWVlkZHO7JSalcmu-L9nr9yzX4/edit?usp=sharing'>here</a>.</p>
-  <h4 class='centered'>Check out our services below.</h4>
+  <h4 class='centered' style='margin-top: 100px;'>Check out our services below.</h4>
 </div>
 <div class='dark'>
   <div class='content-wrap dark'>
