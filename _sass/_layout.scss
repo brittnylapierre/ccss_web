@@ -132,6 +132,12 @@
 	}
 }
 
+@media only screen and (min-width : 1024px) {
+	.top-menu{
+    	display: none;
+    }
+}
+
 /* Bottom menu navigation */
 
 .bottom-menu {
@@ -512,11 +518,6 @@
 			margin-right: 30px;
 		} 
     }
-    @media only screen and (min-width : 1024px) {
-		.nav-links{
-    		display: none;
-        }
-	}
     .social-media-links{
     	width: 344px;
     }
