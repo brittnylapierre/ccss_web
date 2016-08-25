@@ -198,6 +198,7 @@
         font-weight: 100;
         font-size: 1rem;
     }
+    z-index: 14;
 }
 
 /*
@@ -449,6 +450,7 @@
 .social-media-box{
 	width: 100vw;
 	background-color: white;
+    z-index: 9;
     ul {
     	width: 347px;
     	position: relative;
