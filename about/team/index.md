@@ -5,7 +5,7 @@ title: Team
 published: true
 ---
 <div class='content-wrap'>
-  <h1>The Team</h1>
+  <h1 class='centered'>The Team</h1>
   <ul class='boardered-list'>
   	<li id='first-item'>
     	<h5>Elisa Kazan, President (elisa.kazan@ccss.carleton.ca)</h5>
