@@ -3,6 +3,8 @@ layout: default
 permalink: about/
 title: About
 published: true
+subjecttext: THE CCSS
+subjectstyle: 'font-size: 10rem; color: black;'
 ---
 
 <div class='content-wrap'>
