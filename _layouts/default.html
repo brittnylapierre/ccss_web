@@ -37,6 +37,7 @@
     <div id="page-wrapper">
       {% if page.pimage %}
       <div class="page-image-wrapper" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.pimage }}'); font-size:{{ page.subjectsize }};">
+      {% endif %}
         {% if page.showlogo %}
         <div class='front-page-logo' style="font-size: {{ page.subjectsize }}">
         {% else %}
@@ -53,6 +54,7 @@
       		<source src="{{ site.url }}/video/typing2.mov" type="video/mov">
      		<source src="{{ site.url }}/video/typing2.mp4" type="video/mp4">
 		</video-->
+      {% if page.pimage %}
       </div>
       {% endif %}
       {{ content }}
