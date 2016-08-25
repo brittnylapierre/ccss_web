@@ -17,7 +17,7 @@ subjectstyle: 'font-size: 7rem; border-bottom: 5px solid white; border-top: 5px 
 	<li>To engage Carleton University’s School of Computer Science undergraduate students in social and academic activities.</li>
 	<li>To provide services for those students to aid in their academic career at Carleton.</li> 
     <li>To represent those students to the Carleton University community</li>
-</ul>
+  </ul>
 </div>
 <!--As an academic society we are required to have a government structure. Links to all of this official documents ‘n stuff.
 Constitution
