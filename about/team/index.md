@@ -6,8 +6,8 @@ published: true
 ---
 <div class='content-wrap'>
   <h1>The Team</h1>
-  <ul>
-  	<li>
+  <ul class='boardered-list' >
+  	<li id='first-item'>
     	<h5>Elisa Kazan, President (elisa.kazan@ccss.carleton.ca)</h5>
   		<p>I am a 3rd year student in the mobile stream and an LTE software developer intern at Ericsson. I’m energetic, outgoing and love to get involved with events and CS outreach. Tea > Coffee</p>
     </li>
@@ -25,7 +25,7 @@ published: true
   		<h5>Matt Diener (matt.diener@ccss.carleton.ca)</h5>
   		<p>I am a fourth year student in the algorithms stream (no longer offered :( ). I like making music and competing in programming competitions.This is going to be a great year so make sure to get involved and have lots of fun!</p>
   	</li>
-  	<li>
+  	<li id='last-item'>
     	<h5>Andrew Morris (andrew.morris@ccss.carleton.ca)</h5>
   		<p>I'm in the business systems stream. I’ve done a great deal of volunteer work pertaining to the lounge and technical resources. Coffee is what keeps me going.</p>
   	</li>
