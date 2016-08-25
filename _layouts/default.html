@@ -40,7 +40,7 @@
       {% endif %}
         {% if page.showlogo %}
         <div class='front-page-logo' style="font-size: {{ page.subjectsize }}">
-        {% else %}
+        {% elsif page.subjecttext %}
         <div class='front-page-subject' style="{{ page.subjectstyle }}">
         {% endif %}
             {% if page.showlogo %}
@@ -53,7 +53,9 @@
           		  {{ page.subjecttext }}
           		{% endif %}
             {% endif %}
+        {% if page.showlogo or page.subjecttext %}
    		  </div>
+   		  {% endif %}
     	<!--video playsinline autoplay muted loop id="video"> <!--poster="{{ site.url }}/images/typing.png">
       		<source src="{{ site.url }}/video/typing2.mov" type="video/mov">
      		<source src="{{ site.url }}/video/typing2.mp4" type="video/mp4">
