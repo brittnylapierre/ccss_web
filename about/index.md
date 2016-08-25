@@ -5,6 +5,7 @@ title: About
 published: true
 pimage: ../images/code_5.jpg
 subjecttext: THE CCSS
+subjectstyle: font-size: 7rem; border-bottom: 5px solid white; border-top: 5px solid white;
 ---
 
 <div class='content-wrap'>
