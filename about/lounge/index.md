@@ -6,7 +6,7 @@ published: true
 subjecttext: THE LOUNGE
 subjectstyle: >-
   color: black; font-size: 7rem; border-bottom: 5px solid black; margin-bottom:
-  30px;
+  30px; margin-top: 25px;
 ---
 <!--h1 class='big-page-title centered'>THE LOUNGE</h1-->
 <div class='content-wrap'>
