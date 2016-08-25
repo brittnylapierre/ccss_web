@@ -4,6 +4,7 @@ permalink: /about/lounge/
 title: Lounge & Services
 published: true
 ---
+<h1 class='big-page-title centered'>THE LOUNGE</h1>
 <div class='content-wrap'>
   <h1>COFFEE</h1>
   <p>We have a Keurig machine in the office and coffee is free for all CS students, just bring a mug! Don’t worry we also sell cups at 25 cents each.</p>
