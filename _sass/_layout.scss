@@ -712,3 +712,19 @@
 .dash-list {
 	list-style-image: url('../images/dash.jpg');
 }
+
+.title-details-full-page {
+	min-height: 75vh;
+    @media only screen and (min-width : 1920px) {
+    	.front-page-subject {
+    	}
+    	.content-wrap{
+    		h5 {
+        	}
+        	p {
+        	}
+       		h4 {
+        	}
+    	}
+    }
+}
