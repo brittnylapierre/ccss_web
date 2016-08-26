@@ -9,7 +9,7 @@
 #masthead {
 	position: absolute;
     width: 100vw;
-	padding: $gutter;
+	//padding: $gutter;
     background-color: black;
 	z-index: 17;
 	@include transform(translate(0,0));
