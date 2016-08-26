@@ -24,7 +24,8 @@
   position: fixed;
   transform: translateZ(0);
   backface-visibility: hidden; /* fix scroll jank */
-  top: $gutter;
+  //top: $gutter;
+  top: 15px;
   right: $gutter;
   display: block;
   background: $primary-color;
