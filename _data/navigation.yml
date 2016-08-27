@@ -6,10 +6,13 @@
   sublinks:
     - title: The Team
       url: /about/team/
+      image: /images/teaser.png
     - title: Lounge & Services
       url: /about/lounge/
+      image: /images/teaser.png
     - title: Government
       url: /about/government/
+      image: /images/teaser.png
       
 - title: Community
   url: /community/
@@ -18,8 +21,10 @@
   sublinks:
     - title: Events
       url: /community/events/
+      image: /images/teaser.png
     - title: News
       url: /community/news/
+      image: /images/teaser.png
 
 - title: Opportunities
   url: /opportunities
@@ -28,10 +33,13 @@
   sublinks:
     - title: Volunteer
       url: /opportunities/volunteer/
+      image: /images/teaser.png
     - title: External
       url: /opportunities/external/
+      image: /images/teaser.png
     - title: Job Postings
       url: /opportunities/jobs/
+      image: /images/teaser.png
   
 - title: Resources
   url: /resources
@@ -40,12 +48,16 @@
   sublinks:
     - title: Free Textbooks
       url: /resources/textbooks/
+      image: /images/teaser.png
     - title: Student Handbook
       url: http://ccss.carleton.ca/docs/
+      image: /images/teaser.png
     - title: Useful Links
       url: /resources/links/
+      image: /images/teaser.png
     - title: Support and Advice
       url: /resources/advice/
+      image: /images/teaser.png
   
 - title: Contact
   url: /contact/email/
