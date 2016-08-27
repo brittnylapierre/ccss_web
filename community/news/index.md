@@ -6,8 +6,8 @@ published: true
 ---
 <div class='search-box'>Search</div>
 <div class='content-wrap'>
-	<h1 class='big-page-title'>CS @Carleton</h1>
-    <h2 class='page-sub-title'>Your source for computer science news and tutorials</h2>
+	<h1>CS @Carleton</h1> <!--class='big-page-title'-->
+    <h2>Your source for computer science news and tutorials</h2> <!--class='page-sub-title'-->
 	<div class="tiles">
 	{% for post in site.categories.blog %}
   		{% include post-grid.html %}
