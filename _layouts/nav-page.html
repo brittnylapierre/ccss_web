@@ -3,9 +3,7 @@ layout: default
 ---
 
 {{ content }}
-{{ page.url }}
 {% for link in site.data.navigation %}
-  {{ link.url }}
   {% if page.url %}
     {% if link.sublinks %}
       <div class='content-wrap'>
@@ -26,5 +24,8 @@ layout: default
         </ul>
       </div>
     {% endif %}     
-  {% endif %} 
+  {% endif %}
+  {{ link.url }}
 {% endfor %}
+
+{{ page.url }}
