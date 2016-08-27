@@ -13,5 +13,5 @@ published: true
   		{% include post-grid.html %}
 	{% endfor %}
 	</div>
-    <h3 class='page-sub-title'>Want to write an article? Let us know!</h3>
+    <h3 class='page-sub-title'>Want to write an article? <a href='{{ site.url }}/contact/email'>Let us know!</a></h3>
 </div>
