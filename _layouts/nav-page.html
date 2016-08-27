@@ -3,8 +3,9 @@ layout: default
 ---
 
 {{ content }}
-
+{{ page.url }}
 {% for link in site.data.navigation %}
+  {{ link.url }}
   {% if page.url %}
     {% if link.sublinks %}
       <div class='content-wrap'>
