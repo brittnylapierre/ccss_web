@@ -4,7 +4,8 @@ layout: default
 
 {{ content }}
 {% for link in site.data.navigation %}
-  {% if page.url %}
+  {% if page.url == link.url %}
+    {{ link.url }}
     {% if link.sublinks %}
       <div class='content-wrap'>
         <ul class='subpage-list'>
@@ -25,7 +26,4 @@ layout: default
       </div>
     {% endif %}     
   {% endif %}
-  {{ link.url }}
 {% endfor %}
-
-{{ page.url }}
