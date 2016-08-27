@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 {% for link in site.data.navigation %}
   <div style='margin-top: 156px'>{{ page.url }} == {{ link.url }} ?</div>
-  {% if page.url == link.url %} 
+  {% if page.url == link.url + '/' %} 
     yes
     {% if link.sublinks %}
       <div class='content-wrap'>
