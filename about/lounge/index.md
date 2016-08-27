@@ -19,12 +19,11 @@ subjectstyle: >-
     <p>Textbooks are expensive so why not share them? The CCSS now has a library which anyone can borrow from. We have a wide selection of books including discrete structures, Java, calculus and so much more! Please make sure to return the books when you’re done with it. If you have book you would like to donate, email us at info@ccss.carleton.ca with the subject “Textbook Donation”.</p>
     <h3>GAMES</h3>
     <p>Board games? Video games? Card games? We have it all. Check out our selection <a href='https://docs.google.com/spreadsheets/d/1U95tQdS5STzrbfIILKGxJU-YITvph1yzRQ9tKfhiFj4/edit?usp=sharing'>here</a>.</p>
-  <h3>And more...</h3>
-  <h4>Microwave</h4>
+  <h3>Microwave</h3>
   <p>The microwave is in the lounge and always accessible. It is provided as a courtesy by the society so please keep it clean!</p>
-  <h4>Printer</h4>
+  <h3>Printer</h3>
   <p>We have free printing for all CS students. Just email the printer at ccssprinter@gmail.com and get one of the volunteers in the office to print it for you.</p>
-  <h4>Office Supplies</h4>
+  <h3>Office Supplies</h3>
   <p>Yes we have office supplies! You are more than welcome to borrow them as long as you bring them back.</p>
   <!--
   
