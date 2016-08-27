@@ -25,7 +25,7 @@
   transform: translateZ(0);
   backface-visibility: hidden; /* fix scroll jank */
   //top: $gutter;
-  top: 15px;
+  top: 0.5rem;
   right: $gutter;
   display: block;
   background: $primary-color;
