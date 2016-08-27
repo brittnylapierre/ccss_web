@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for link in site.data.navigation %}
+  {% if page.url == link.url %}
+    {% if link.url contains 'http' %}
+      {% assign domain = '' %}
+    {% else %}
+    {% assign domain = site.url %}
+  {% endif %}
+    {% if link.sublinks %}
+      <div class='content-wrap'>
+        <ul class='subpage-list'>
+          {% for sublink in link.sublinks %}
+            <li>
+              {% if sublink.url contains 'http' %}
+        	      {% assign subdomain = '' %}
+       		    {% else %}
+        	      {% assign subdomain = site.url %}
+    	        {% endif %}
+                <a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
+                  {{ sublink.title }}
+                </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}     
+  {% endif %} 
+{% endfor %}
