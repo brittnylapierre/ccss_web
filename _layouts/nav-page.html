@@ -5,9 +5,7 @@ layout: default
 {{ content }}
 {% for link in site.data.navigation %}
   {% assign x = link.url | append: '/' %}
-  <div style='margin-top: 156px'>{{ page.url }} == {{ x }} ?</div>
   {% if page.url == x %} 
-    yes
     {% if link.sublinks %}
       <div class='content-wrap'>
         <ul class='subpage-list'>
@@ -20,7 +18,7 @@ layout: default
     	        {% endif %}
     	          <div class="center-cropped-img" style="background: url('{{ site.url }}{{ sublink.image }}')"></div>
                 <a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %} class'skinny-underline'>				 	
-                  {{ sublink.title }}
+                  <h1>{{ sublink.title }}</h1>
                 </a>
             </li>
           {% endfor %}
