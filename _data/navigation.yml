@@ -1,5 +1,16 @@
 # Site navigation links
- 
+- title: About
+  url: /about
+  excerpt:
+  image:
+  sublinks:
+    - title: The Team
+      url: /about/team/
+    - title: Lounge & Services
+      url: /about/lounge/
+    - title: Government
+      url: /about/government/
+      
 - title: Community
   url: /community/
   excerpt:
@@ -35,18 +46,6 @@
       url: /resources/links/
     - title: Support and Advice
       url: /resources/advice/
-  
-- title: About
-  url: /about
-  excerpt:
-  image:
-  sublinks:
-    - title: The Team
-      url: /about/team/
-    - title: Lounge & Services
-      url: /about/lounge/
-    - title: Government
-      url: /about/government/
   
 - title: Contact
   url: /contact/email/
