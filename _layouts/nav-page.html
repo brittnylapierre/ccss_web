@@ -21,7 +21,8 @@ layout: default
        		    {% else %}
         	      {% assign subdomain = site.url %}
     	        {% endif %}
-                <a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>				 	
+    	          <div class="center-cropped-img" style="background: url('{{ site.url }}{{ sublink.image }}')"></div>
+                <a href="{{ subdomain }}{{ sublink.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %} class'skinny-link'>				 	
                   {{ sublink.title }}
                 </a>
             </li>
