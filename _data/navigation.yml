@@ -49,13 +49,7 @@
       url: /about/government/
   
 - title: Contact
-  url: /contact
+  url: /contact/email/
   excerpt:
   image:
   sublinks:
-    - title: Email
-      url: /contact/email/
-    - title: Sponsor
-      url: /contact/sponsor/
-    - title: Social Media
-      url: /contact/social/
